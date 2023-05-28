@@ -7,5 +7,5 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 app.listen(5000, () => {
-  console.log("server is running");
+  console.log(`server is running http://localhost:5000/`);
 });
